@@ -1,1 +1,29 @@
 // Navigation code here
+.grey-header {
+  width: 100%;
+  background-color: @nav-bg;
+  color: @header-font-color;
+  position: fixed;
+  top: 0;
+
+  .title-heading {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .nav-panel {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+
+    a {
+      padding: 1% 1.5%;
+      color: @nav-font;
+      text-decoration: none;
+    }
+
+    a:hover {
+      background-color: @nav-border;
+    }
+  }
+}
