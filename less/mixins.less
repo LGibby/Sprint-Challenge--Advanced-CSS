@@ -1,12 +1,15 @@
 // Mixins Here
-.button {
-  width: 80px;
-  height: 30px;
-  border-radius: 5px;
-  font-size: 1.5rem;
-  text-align: center;
+.button (@width: 100px, @height: 30px, @border-radius: 6px){
+  width: @width;
+  height: @height;
+  border-radius: @border-radius;
   background-color: @btn-bg-color;
   color: @sea-shell;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+
   &:hover {
     background-color: @river-bend;
   }

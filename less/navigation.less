@@ -9,6 +9,11 @@
   .title-heading {
     font-size: 4rem;
     text-align: center;
+
+    @media @phone {
+      font-size: 3rem;
+    }
+
   }
 
   .nav-panel {
@@ -20,10 +25,12 @@
       padding: 1% 1.5%;
       color: @nav-font;
       text-decoration: none;
+      border-radius: 25px;
+
     }
 
     a:hover {
-      background-color: @nav-border;
+      background-color: darken(@nav-border, 15%);
     }
   }
 }
