@@ -6,21 +6,28 @@
   position: fixed;
   top: 0;
 
+  @media @phone{
+    position: unset;
+    width: 100%;
+  }
+
   .title-heading {
     font-size: 4rem;
     text-align: center;
 
     @media @phone {
-      font-size: 3rem;
+      padding: 3% 0 3% 0;
     }
 
-  }
+  }//I wanted to use calc() to make this font responsive because I had seen it on CSS tricks but I couldn't find the page again, I really wanted this title heading to grow and shrink with the size of the viewport.
 
   .nav-panel {
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
-
+    @media @phone{
+      padding: 0 0 3% 0;
+    }
     a {
       padding: 1% 1.5%;
       color: @nav-font;

@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262e5fb6-cd24-468e-a507-a9efa10ac13c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/less/home-page.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/home-page.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/mixins.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/less/navigation.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/navigation.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/variables.less" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,15 +21,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="70" column="14" selection-end-line="110" selection-end-column="7" />
+            <state relative-caret-position="50">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -61,6 +57,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/less/navigation.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="21" column="213" selection-start-line="21" selection-start-column="213" selection-end-line="21" selection-end-column="213" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/variables.less">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,24 +78,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/home-page.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="76" column="7" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+            <state relative-caret-position="384">
+              <caret line="128" column="227" selection-start-line="128" selection-start-column="227" selection-end-line="128" selection-end-column="227" />
               <folding>
+                <element signature="e#23#370#0" />
                 <element signature="e#54#134#0" />
+                <element signature="e#64#92#0" />
+                <element signature="e#100#129#0" />
+                <element signature="e#142#156#0" />
                 <element signature="e#152#321#0" />
                 <element signature="e#347#365#0" />
                 <element signature="e#379#397#0" />
-                <element signature="e#340#443#0" />
+                <element signature="e#453#934#0" />
+                <element signature="e#789#930#0" />
+                <element signature="e#843#924#0" />
+                <element signature="e#1079#1157#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/mixins.less">
+        <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="1720">
+              <caret line="296" selection-start-line="296" selection-end-line="296" />
             </state>
           </provider>
         </entry>
@@ -108,9 +120,9 @@
         <option value="$PROJECT_DIR$/less/mixins.less" />
         <option value="$PROJECT_DIR$/less/variables.less" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/less/navigation.less" />
-        <option value="$PROJECT_DIR$/less/home-page.less" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/less/home-page.less" />
+        <option value="$PROJECT_DIR$/less/navigation.less" />
       </list>
     </option>
   </component>
@@ -209,12 +221,12 @@
       <workItem from="1561331653175" duration="24815000" />
       <workItem from="1561418059504" duration="7150000" />
       <workItem from="1561484566522" duration="700000" />
-      <workItem from="1561493002703" duration="6846000" />
+      <workItem from="1561493002703" duration="10674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39511000" />
+    <option name="totallyTimeSpent" value="43339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
@@ -244,13 +256,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="274" lean-forward="true" selection-start-line="274" selection-end-line="274" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -274,6 +279,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/less/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/less/mixins.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -281,17 +293,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/navigation.less">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="50">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/index.less">
+    <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="1720">
+          <caret line="296" selection-start-line="296" selection-end-line="296" />
         </state>
       </provider>
     </entry>
@@ -304,28 +322,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/home-page.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="76" column="7" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+        <state relative-caret-position="384">
+          <caret line="128" column="227" selection-start-line="128" selection-start-column="227" selection-end-line="128" selection-end-column="227" />
           <folding>
+            <element signature="e#23#370#0" />
             <element signature="e#54#134#0" />
+            <element signature="e#64#92#0" />
+            <element signature="e#100#129#0" />
+            <element signature="e#142#156#0" />
             <element signature="e#152#321#0" />
             <element signature="e#347#365#0" />
             <element signature="e#379#397#0" />
-            <element signature="e#340#443#0" />
+            <element signature="e#453#934#0" />
+            <element signature="e#789#930#0" />
+            <element signature="e#843#924#0" />
+            <element signature="e#1079#1157#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/less/navigation.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="70" column="14" selection-end-line="110" selection-end-column="7" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="358">
+          <caret line="21" column="213" selection-start-line="21" selection-start-column="213" selection-end-line="21" selection-end-column="213" />
         </state>
       </provider>
     </entry>

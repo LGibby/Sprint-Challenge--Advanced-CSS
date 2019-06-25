@@ -167,19 +167,30 @@ p {
   position: fixed;
   top: 0;
 }
+@media (max-width: 500px) {
+  .grey-header {
+    position: unset;
+    width: 100%;
+  }
+}
 .grey-header .title-heading {
   font-size: 4rem;
   text-align: center;
 }
 @media (max-width: 500px) {
   .grey-header .title-heading {
-    font-size: 3rem;
+    padding: 3% 0 3% 0;
   }
 }
 .grey-header .nav-panel {
   font-size: 1.5rem;
   display: flex;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  .grey-header .nav-panel {
+    padding: 0 0 3% 0;
+  }
 }
 .grey-header .nav-panel a {
   padding: 1% 1.5%;
@@ -203,11 +214,23 @@ footer {
 .home {
   margin-top: 6%;
 }
+@media (max-width: 500px) {
+  .home {
+    margin-top: 2%;
+  }
+}
 .home .intro h2 {
   padding: 15px;
 }
 .home .intro p {
   padding: 0 15px;
+}
+@media (max-width: 500px) {
+  .home .intro .header-image {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
 }
 .home .space-images {
   display: flex;
@@ -257,6 +280,11 @@ footer {
 .walk .walk-text p {
   margin-bottom: 26px;
 }
+@media (max-width: 500px) {
+  .walk .walk-text {
+    width: 100%;
+  }
+}
 .walk .walk-text .btn {
   width: 100px;
   height: 30px;
@@ -274,12 +302,7 @@ footer {
 @media (max-width: 500px) {
   .walk .walk-text .btn {
     width: 100%;
-  }
-}
-@media (max-width: 500px) {
-  .walk .walk-text {
-    width: 100%;
-    margin: 0;
+    height: 60px;
   }
 }
 .walk .walk-img {
@@ -289,6 +312,8 @@ footer {
 @media (max-width: 500px) {
   .walk .walk-img {
     width: 100%;
+    order: -1;
+    margin: 0 0 3% 0;
   }
 }
 .walk .walk-img img {
@@ -299,6 +324,7 @@ footer {
 @media (max-width: 500px) {
   .walk {
     flex-direction: column;
+    margin: 0;
     width: 100%;
   }
 }
