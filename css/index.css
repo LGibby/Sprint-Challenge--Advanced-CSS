@@ -271,6 +271,13 @@ footer {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .walk {
+    flex-direction: column;
+    width: 100%;
+    padding: 50px 10px;
+  }
+}
 .walk .walk-text {
   width: 50%;
 }
@@ -320,11 +327,4 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
-}
-@media (max-width: 500px) {
-  .walk {
-    flex-direction: column;
-    margin: 0;
-    width: 100%;
-  }
 }
