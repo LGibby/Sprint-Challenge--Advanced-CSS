@@ -2,6 +2,7 @@
 
 .home {
   margin-top: 6%;
+
   @media @phone{
     margin-top: 2%;
   }
@@ -78,6 +79,12 @@
   display: flex;
   justify-content: center;
 
+  @media @phone{
+    flex-direction: column;
+    width: 100%;
+    padding: 50px 10px;
+  }
+
   .walk-text {
     width: 50%;
 
@@ -120,11 +127,7 @@
     }
   }
 
-  @media @phone{
-    flex-direction: column;
-    margin: 0;
-    width: 100%;
-  }
+
 
 } //I think this turned out awful, the width isn't correct and I couldn't fix it. proportionally speaking it doesn't look right compared with the design file and I can't figure out how to get rid of the white space on the sides
 // home
